@@ -1,6 +1,6 @@
 # Garfield website
 
-This is the repository that contains source code for the Garfield paper website.
+This is the repository that contains source code for the Garfield paper [website](https://ddonatien.github.io/garfield-website/). 
 Forked from the [Nerfies website](https://nerfies.github.io).
 
 # Website License
