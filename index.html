@@ -147,10 +147,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           We present GARField (Garment Attached Radiance Field), the
-           first differentiable rendering architecture, to our knowledge,
-           for data generation from simulated states stored as triangle
-           meshes.
+           This paper presents MeGaBoT, a dataset that provides tracked 
+            gaze, upper body movements, and hand interaction joints in 
+            mixed reality (MR) environments.
           </p>
           <p>
            While humans intuitively manipulate garments
@@ -165,19 +164,30 @@
            and observations.
           </p>
           <p>
-           We can partly attribute this to the high
-           cost of obtaining densely labelled data for textile manipulation,
-           both in quality and quantity. The problem of data collection
-           is a long-standing issue in data-based approaches to garment
-           manipulation. As of today, generating high-quality and labelled
-           garment manipulation data is mainly attempted through advanced
-           data capture procedures that create a simplified state
-           estimations from real-world observations. 
+           The dataset is based on the Meta Quest Pro headset, offering an easy-to-use 
+            resource for researchers and developers working in MR and human-computer interaction (HCI). 
+            MeGaBoT focuses on collecting natural and precise interactions with virtual objects, with 
+            three core interaction types: pushing, pointing, and grasping. To ensure robustness 
+            and generalization, each interaction is performed across six distinct directions, reflecting 
+            a diverse range of movement trajectories relative to the user's body. 
+            This directional diversity provides critical insights into how users approach and engage 
+            with virtual objects from multiple angles. To precisely track contact points during 
+            interactions, 17 key contact points are defined for each direction and are labeled. 
+            These contact points serve as reference markers to accurately localize and quantify 
+            the joint-to-object contact points for each interaction type and direction.
           </p>
           <p>
-           However, this work
-           proposes a novel approach to the problem by generating
-           real-world observations from object states.
+           In addition to providing the dataset, this paper evaluates the quality and 
+            precision of the collected dataset in MR through a set of comprehensive 
+            evaluation metrics. These metrics assess critical aspects of interaction 
+            performance, including Trajectory Similarity, Joint Angle Orientation, and 
+            Joint-to-Contact Alignment. It also details the theoretical and implementation
+            considerations for dataset collection, offering valuable insights for 
+            applications in VR and human-robot interaction.
+          </p>
+          <p>
+           This resource aims to support the development and evaluation of MR-based 
+            interaction systems.
           </p>
         </div>
       </div>
