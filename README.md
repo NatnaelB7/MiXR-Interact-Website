@@ -1,4 +1,4 @@
-# Garfield website
+# MeGaBoT Website
 
 This repository contains the source code for the Garfield paper [website](https://ddonatien.github.io/garfield-website/).  
 Forked from the [Nerfies website](https://nerfies.github.io).
