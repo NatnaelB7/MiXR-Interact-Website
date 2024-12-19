@@ -155,3 +155,15 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+.border-solid {
+  border: solid;
+}
+.overview-image > img {
+  height: 500px;
+}
+.mt-3 {
+  margin-top: 3px;
+}
+.experimental-img {
+height: 240px;
+}
