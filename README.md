@@ -1,6 +1,6 @@
-# MeGaBoT Website
+# MeGaBoHaSet Website
 
-This repository contains the source code for the MeGaBoT paper [website](https://natnaelb7.github.io/MeGaBoT_Website/).  
+This repository contains the source code for the MeGaBoHaSet paper [website](https://natnaelb7.github.io/MeGaBoHaSet_Website/).  
 Forked from the [Nerfies website](https://nerfies.github.io).
 
 # Website License
