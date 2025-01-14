@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="MeGaBoHaSet: A Meta Quest Dataset for Gaze, Body, and Hand Interaction in MR">
-  <meta name="keywords" content="MeGaBoHaSet">
+  <meta name="description" content="MiXR-Interact: Mixed Reality Interaction Dataset for Gaze, Hand, and Body">
+  <meta name="keywords" content="MiXR-Interact">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MeGaBoHaSet: A Meta Quest Dataset for Gaze, Body, and Hand Interaction in MR</title>
+  <title>MiXR-Interact: Mixed Reality Interaction Dataset for Gaze, Hand, and Body</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -43,8 +43,8 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">MeGaBoHaSet: A Meta Quest Dataset for Gaze, Body, and Hand Interaction
-              in MR</h1>
+            <h1 class="title is-1 publication-title">MiXR-Interact: Mixed Reality Interaction Dataset for Gaze, Hand,
+              and Body</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">
                 <a href="https://www.iit.it/en-US/people-details/-/people/natnael-takele">Natnael Berhanu
@@ -53,28 +53,28 @@
                 <a href="https://www.iit.it/people-details/-/people/donatien-delehelle">Donatien
                   Delehelle</a><sup>1,2</sup>,</span>
               <span class="author-block">
-                <a href="https://www.iit.it/it/people-details/-/people/yonas-tefera">Yonas Teodros 
-                  Tefera</a><sup>2</sup>,</span>
-              <span class="author-block">
                 <a href="https://yaesolkim.github.io/">Yaesol
-                  Kim</a><sup>2</sup>,</span>
+                  Kim</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.iit.it/it/people-details/-/people/yonas-tefera">Yonas Teodros
+                  Tefera</a><sup>1</sup>,</span>
               <span class="author-block">
                 <a href="https://www.nottingham.ac.uk/computerscience/people/nikhil.deshpande">Nikhil
                   Deshpande</a><sup>3</sup>,</span>
               <span class="author-block">
                 <a href="https://www.iit.it/people-details/-/people/darwin-caldwell">Darwin
-                  Caldwell</a><sup>2</sup>,</span>
+                  Caldwell</a><sup>1</sup>,</span>
               <span class="author-block">
                 <a href="https://www.iit.it/it/people-details/-/people/jesus-ortiz">Jesus
-                  Ortiz</a><sup>2</sup>and</span>
+                  Ortiz</a><sup>1</sup>and</span>
               <span class="author-block">
                 <a href="https://rubrica.unige.it/personale/UkNDWV1r">Carmine
-                  Recchiuto</a><sup>1</sup></span>
+                  Recchiuto</a><sup>2</sup></span>
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>University of Genova,</span>
-              <span class="author-block"><sup>2</sup>Istituto Italiano di Tecnologia,</span>
+              <span class="author-block"><sup>1</sup>Istituto Italiano di Tecnologia,</span>
+              <span class="author-block"><sup>2</sup>University of Genova,</span>
               <span class="author-block"><sup>3</sup>University of Nottingham</span>
             </div>
 
@@ -107,7 +107,7 @@
                     <span class="icon">
                       <i class="far fa-images"></i>
                     </span>
-                    <span>MeGaBoHaSet Dataset</span>
+                    <span>MiXR-Interact-Dataset</span>
                   </a>
                 </span>
               </div>
@@ -127,7 +127,7 @@
                 type="video/mp4">
       </video> -->
         <h2 class="subtitle has-text-centered">
-          <span class="dnerf">MeGaBoHaSet:</span> a Meta Quest Dataset for Gaze, Body, and Hand Interaction in Mixed Reality
+          <span class="dnerf">MiXR-Interact:</span> Mixed Reality Interaction Dataset for Gaze, Hand, and Body
         </h2>
       </div>
     </div>
@@ -141,35 +141,29 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              This paper presents MeGaBoHaSet, a dataset that provides tracked
-              gaze, upper body movements, and hand interaction joints in
-              mixed reality (MR) environments.
+              This paper presents MiXR-Interact, a dataset providing motion tracking data for
+              users' interactions in mixed reality (MR) environments, focusing on tracking
+              their gaze, upper body movements, and hand gestures.
             </p>
             <p>
-              The dataset is based on the Meta Quest Pro headset, offering an easy-to-use
-              resource for researchers and developers working in MR and human-computer interaction (HCI).
-              MeGaBoHaSet focuses on collecting natural and precise interactions with virtual objects, with
-              three core interaction types: pushing, pointing, and grasping. To ensure robustness
+              The dataset is based on the Meta Quest Pro headset, offering an easy-to-use resource
+              for researchers and developers working in MR and human-computer interaction (HCI).
+              MiXR-Interact focuses on collecting natural and precise interactions with virtual objects,
+              with three core interaction types: pushing, pointing, and grasping. To ensure robustness
               and generalization, each interaction is performed across six distinct directions, reflecting
-              a diverse range of movement trajectories relative to the user's body.
-              This directional diversity provides critical insights into how users approach and engage
-              with virtual objects from multiple angles. To precisely track contact points during
-              interactions, 17 key contact points are defined for each direction and are labeled.
-              These contact points serve as reference markers to accurately localize and quantify
-              the joint-to-object contact points for each interaction type and direction.
+              a diverse range of movement trajectories relative to the user's body. This directional
+              diversity provides critical insights into how users approach and engage with virtual objects from multiple
+              angles. In addition, to precisely track contact points during interactions, 17 key contact points are
+              defined for each direction and are labeled. These contact points are used as reference markers to
+              accurately localize and quantify the joint-to-object contact points for each interaction type and
+              direction.
             </p>
             <p>
-              In addition to providing the dataset, this paper evaluates the quality and
-              precision of the collected dataset in MR through a set of comprehensive
-              evaluation metrics. These metrics assess critical aspects of interaction
-              performance, including Trajectory Similarity, Joint Angle Orientation, and
-              Joint-to-Contact Alignment. It also details the theoretical and implementation
-              considerations for dataset collection, offering valuable insights for
-              applications in VR and human-robot interaction.
-            </p>
-            <p>
-              This resource aims to support the development and evaluation of MR-based
-              interaction systems.
+              In addition to providing the dataset, this paper evaluates the quality and precision of the collected
+              dataset in MR through a set of evaluation metrics. These metrics assess critical aspects of interaction
+              performance, including Trajectory Similarity, Joint Orientation, and Joint-to-Contact Alignment. It also
+              details the theoretical and implementation considerations for dataset collection, offering valuable
+              insights for applications in MR and human-robot interaction (HRI).
             </p>
           </div>
         </div>
@@ -235,11 +229,11 @@
             <p>Gaze, hand gestures, and full-body interaction are among the most essential and natural human
               communication and interaction modes. They often serve as powerful non-verbal cues, allowing us to perceive
               and interpret information even before it is verbally conveyed. These interaction methods are particularly
-              critical in applications like Virtual Reality (VR), where creating an immersive experience demands a
+              critical in applications like Mixed Reality (MR), where creating an immersive experience demands a
               seamless and intuitive flow of information.
-              MeGaBoHaSet provides a comprehensive dataset that captures body pose and eye tracking for immersive Mixed
-              Reality (MR)-based remote haptic teleoperation. The dataset is accompanied by methodologies for collecting
-              and analyzing complex user interactions in MR environments, enabling advancements in VR, human-computer
+              MiXR-Interact provides a comprehensive dataset that captures body pose and eye tracking for immersive
+              MR-based remote haptic teleoperation. The dataset is accompanied by methodologies for collecting
+              and analyzing complex user interactions in MR environments, enabling advancements in MR, human-computer
               interaction, and human-robot collaboration.
             </p>
           </div>
@@ -251,8 +245,8 @@
           <h2 class="title is-3">Experiemental Setup</h2>
           <div class="content has-text-justified">
             <p>
-              The system is built on the Meta Quest Pro VR headset, which supports gaze, hand, body tracking, and motion
-              controllers. The VR interface, developed using Unreal Engine 5 (UE-5), includes 3D interaction elements.
+              The system is built on the Meta Quest Pro MR headset, which supports gaze, hand, body tracking, and motion
+              controllers. The MR interface, developed using Unreal Engine 5 (UE-5), includes 3D interaction elements.
               Participants interact with a virtual plane containing specific contact points that anchor 3D mesh objects
               tailored to each task.
               Spherical meshes are used for pointing tasks, offering intuitive and precise targets. Rectangular meshes,
@@ -264,10 +258,12 @@
 
           <div class="columns is-centered">
             <div class="column is-half">
-              <img src="./static/images/SetupInteraction_page-0001.jpg" class="experimental-img" alt="Setup Interaction" />
+              <img src="./static/images/SetupInteraction_page-0001.jpg" class="experimental-img"
+                alt="Setup Interaction" />
             </div>
             <div class="column is-half">
-              <img src="./static/images/SetupInteraction_2_page-0001.jpg" class="experimental-img" alt="Setup Interaction" />
+              <img src="./static/images/SetupInteraction_2_page-0001.jpg" class="experimental-img"
+                alt="Setup Interaction" />
             </div>
           </div>
           <br />
@@ -283,7 +279,7 @@
       <pre><code>@data{IQ4AZY_2024,
         author = {Takele, Natnael Berhanu},
         publisher = {IIT Dataverse},
-        title = {{MeGaBoHaSet: A Meta Quest Dataset for Gaze, Body, and Hand Interaction in MR}},
+        title = {{MiXR-Interact: Mixed Reality Interaction Dataset for Gaze, Hand, and Body}},
         year = {2024},
         version = {DRAFT VERSION},
         doi = {10.48557/IQ4AZY},
