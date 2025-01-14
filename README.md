@@ -1,6 +1,6 @@
-# MeGaBoHaSet Website
+# MiXR-Interact-Website
 
-This repository contains the source code for the MeGaBoHaSet paper [website](https://natnaelb7.github.io/MeGaBoHaSet_Website/).  
+This repository contains the source code for the MiXR-Interact paper [website](https://natnaelb7.github.io/MiXR-Interact-Website/).  
 Forked from the [Nerfies website](https://nerfies.github.io).
 
 # Website License
